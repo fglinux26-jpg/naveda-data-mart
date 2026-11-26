@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#233831">
+  <title>Naveda · Análisis comercial</title>
+  <link rel="stylesheet" href="web/estilos.css">
+  <script src="motor/salida/demo.js" defer></script>
+  <script src="web/comercial.js" defer></script>
+  <script src="web/interfaz.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="shell">
+    <aside class="side">
+      <a class="brand" href="#resumen" aria-label="Naveda, resumen comercial">
+        <span class="brand-mark" aria-hidden="true"><b></b><b></b><b></b></span>
+        <span><strong>Naveda</strong><small>Analítica comercial</small></span>
+      </a>
+      <nav aria-label="Módulos"><ul id="navegacion"></ul></nav>
+      <div class="side-foot"><span class="status-dot"></span> Entorno de demostración</div>
+    </aside>
+    <div class="right">
+      <header class="top"><div>Data Mart <span aria-hidden="true">/</span> <b id="ruta">Resumen</b></div><div class="top-meta" id="corte"></div></header>
+      <main id="contenido" tabindex="-1">
+        <div class="mast"><div><p class="kicker" id="subtitulo">ANÁLISIS COMERCIAL</p><h1 id="titulo">Resumen comercial</h1><p class="intro" id="introduccion"></p></div><button id="exportar" class="action" type="button"></button></div>
+        <section id="filtros" class="filters" aria-label="Filtros de consulta"></section>
+        <div id="aviso" aria-live="polite"></div>
+        <div id="vista"></div>
+        <noscript>Activa JavaScript para consultar el Data Mart.</noscript>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

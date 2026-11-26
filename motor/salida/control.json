@@ -1,0 +1,163 @@
+{
+  "extraidas": 821,
+  "aceptadas": 815,
+  "duplicadas": 2,
+  "rechazadas": 4,
+  "netoCent": 8161191,
+  "gramos": 3198000,
+  "stockGramos": 1789500,
+  "comprobantes": 394,
+  "controles": [
+    {
+      "prueba": "Comprobantes conciliados con cabeceras",
+      "esperado": 394,
+      "obtenido": 394,
+      "unidad": "comprobantes",
+      "cumple": true
+    },
+    {
+      "prueba": "Diferencias por comprobante",
+      "esperado": 0,
+      "obtenido": 0,
+      "unidad": "comprobantes",
+      "cumple": true
+    },
+    {
+      "prueba": "Venta neta · 2026-08",
+      "esperado": 2964891,
+      "obtenido": 2964891,
+      "unidad": "céntimos",
+      "cumple": true
+    },
+    {
+      "prueba": "Venta neta · 2026-09",
+      "esperado": 1995340,
+      "obtenido": 1995340,
+      "unidad": "céntimos",
+      "cumple": true
+    },
+    {
+      "prueba": "Venta neta · 2026-10",
+      "esperado": 3200960,
+      "obtenido": 3200960,
+      "unidad": "céntimos",
+      "cumple": true
+    },
+    {
+      "prueba": "Venta neta del periodo",
+      "esperado": 8161191,
+      "obtenido": 8161191,
+      "unidad": "céntimos",
+      "cumple": true
+    },
+    {
+      "prueba": "Peso vendido del periodo",
+      "esperado": 3198000,
+      "obtenido": 3198000,
+      "unidad": "gramos",
+      "cumple": true
+    },
+    {
+      "prueba": "Diferencias por mes, producto y canal",
+      "esperado": 0,
+      "obtenido": 0,
+      "unidad": "grupos",
+      "cumple": true
+    },
+    {
+      "prueba": "Septiembre · pechuga de pollo · mayorista",
+      "esperado": 113609,
+      "obtenido": 113609,
+      "unidad": "céntimos",
+      "cumple": true
+    },
+    {
+      "prueba": "Peso · septiembre · pechuga · mayorista",
+      "esperado": 62000,
+      "obtenido": 62000,
+      "unidad": "gramos",
+      "cumple": true
+    },
+    {
+      "prueba": "Inventario · 2026-10-31 · U01",
+      "esperado": 945250,
+      "obtenido": 945250,
+      "unidad": "gramos",
+      "cumple": true
+    },
+    {
+      "prueba": "Inventario · 2026-10-31 · U02",
+      "esperado": 844250,
+      "obtenido": 844250,
+      "unidad": "gramos",
+      "cumple": true
+    },
+    {
+      "prueba": "Claves foráneas sin correspondencia",
+      "esperado": 0,
+      "obtenido": 0,
+      "unidad": "claves",
+      "cumple": true
+    }
+  ],
+  "incidencias": [
+    {
+      "fuente": "ventas",
+      "fila": 817,
+      "clave": "FDM-00004/2",
+      "tipo": "Duplicada",
+      "motivo": "Repetición exacta de una fila válida."
+    },
+    {
+      "fuente": "ventas",
+      "fila": 818,
+      "clave": "FDM-00043/2",
+      "tipo": "Duplicada",
+      "motivo": "Repetición exacta de una fila válida."
+    },
+    {
+      "fuente": "ventas",
+      "fila": 819,
+      "clave": "FDM-00017/2",
+      "tipo": "Rechazada",
+      "motivo": "Clave repetida con valores distintos; se conserva la primera línea válida."
+    },
+    {
+      "fuente": "ventas",
+      "fila": 820,
+      "clave": "OBS-01/1",
+      "tipo": "Rechazada",
+      "motivo": "Código de producto inexistente: P99."
+    },
+    {
+      "fuente": "ventas",
+      "fila": 821,
+      "clave": "OBS-02/1",
+      "tipo": "Rechazada",
+      "motivo": "Peso fuera de rango o con precisión no admitida."
+    },
+    {
+      "fuente": "ventas",
+      "fila": 822,
+      "clave": "OBS-03/1",
+      "tipo": "Rechazada",
+      "motivo": "Descuento mayor que el importe bruto."
+    }
+  ],
+  "fuentes": [
+    {
+      "fuente": "inventario",
+      "extraidas": 20,
+      "aceptadas": 20,
+      "duplicadas": 0,
+      "rechazadas": 0
+    },
+    {
+      "fuente": "ventas",
+      "extraidas": 821,
+      "aceptadas": 815,
+      "duplicadas": 2,
+      "rechazadas": 4
+    }
+  ]
+}

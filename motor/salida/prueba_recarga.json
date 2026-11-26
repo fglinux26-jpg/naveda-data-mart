@@ -1,0 +1,33 @@
+{
+  "demostrativo": true,
+  "prueba": "Recargar dos veces los mismos archivos de origen",
+  "primera_carga": {
+    "huellas_sha256": {
+      "naveda_demo.sqlite": "0f07212165fa1bc909c355852ced508ff116d2ad081a3bcb41e29723e6d6b8ac",
+      "postgresql_demo.sql": "8e17df89ada90de763be7a185ab029b1ff1ae7aa0fda320ef15befbf85aea1f1",
+      "demo.js": "47b43130b02d2dab55573c95a46e1beee4de78360ae33dab84af6d1395b99386",
+      "control.json": "5450509136227843dc722498c4e1f1f006a06ac4fcc0a604a693c41de8c1c71d"
+    },
+    "lineas": 815,
+    "comprobantes": 394,
+    "neto_centimos": 8161191,
+    "venta_gramos": 3198000,
+    "saldos": 20,
+    "inventario_gramos": 1789500
+  },
+  "segunda_carga": {
+    "huellas_sha256": {
+      "naveda_demo.sqlite": "0f07212165fa1bc909c355852ced508ff116d2ad081a3bcb41e29723e6d6b8ac",
+      "postgresql_demo.sql": "8e17df89ada90de763be7a185ab029b1ff1ae7aa0fda320ef15befbf85aea1f1",
+      "demo.js": "47b43130b02d2dab55573c95a46e1beee4de78360ae33dab84af6d1395b99386",
+      "control.json": "5450509136227843dc722498c4e1f1f006a06ac4fcc0a604a693c41de8c1c71d"
+    },
+    "lineas": 815,
+    "comprobantes": 394,
+    "neto_centimos": 8161191,
+    "venta_gramos": 3198000,
+    "saldos": 20,
+    "inventario_gramos": 1789500
+  },
+  "cumple": true
+}

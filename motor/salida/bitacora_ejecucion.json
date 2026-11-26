@@ -1,0 +1,35 @@
+{
+  "demostrativo": true,
+  "inicio_utc": "2026-11-26T21:16:50.930193+00:00",
+  "fin_utc": "2026-11-26T21:16:51.004236+00:00",
+  "duracion_ms": 74.045,
+  "archivos_sha256": {
+    "canales.csv": "15abb2b42ad8ca7f6ccf925e5a2483edeee0c9cd25ab17af3404436cae731a7e",
+    "clientes.csv": "3bd3cdc2432316642d99d01bfca63835bf55961195a821eaa93b2f18e15555a9",
+    "control_comprobantes.csv": "5449a147ac904e866ffcfc90dbdca58d00746135be293ce8986f55c28748faa7",
+    "control_despacho.csv": "ca30e819345466fd5e91a452d036dada14dbcb9c73ad8f205f1039c399446b77",
+    "control_existencias.csv": "0563d3685554c365324357b6f373311904ff3a7692134fd63fec622c263bfba2",
+    "inventario.csv": "3f8737e92812512f32f5e83abfccaee3af129e333c471b41093e8fdef873de77",
+    "productos.csv": "4a1349c784e87e1434e6b55f3b2f699f73a5243f594f0d1ea4c6ae4b3d1e920a",
+    "ubicaciones.csv": "9dbf394082adf0b88f06bac853303895759878ad5fb4102a493d40875ab7ff29",
+    "ventas.csv": "afb20562e66ae610d8917999bb2937e56f94246a9c54e0e0bbd012cf0fb5c3b7"
+  },
+  "fuentes": [
+    {
+      "fuente": "inventario",
+      "extraidas": 20,
+      "aceptadas": 20,
+      "duplicadas": 0,
+      "rechazadas": 0
+    },
+    {
+      "fuente": "ventas",
+      "extraidas": 821,
+      "aceptadas": 815,
+      "duplicadas": 2,
+      "rechazadas": 4
+    }
+  ],
+  "pruebas_correctas": 13,
+  "pruebas_totales": 13
+}
